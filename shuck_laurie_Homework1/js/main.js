@@ -21,7 +21,6 @@ FILE SETUP
 // Setup the call to that canvas and get it's 2d context
 //Use Modernizr to verify that your browser supports canvas, include a fallback message
 
-
 /*******************************************
 PART 1
 
@@ -32,6 +31,8 @@ Set the stroke color to black and the dimension of the stroke are the same as th
 
 Reminder - set the style first then draw.
 ********************************************/
+//In one of the videos it mentioned that we needed to use Modernizr for each section. The user will receive a lot of alerts
+//if their browser does not support the Canvas element
 if(Modernizr.canvas){
     //Set up the canvas and get the context
     var canvasRect = document.getElementById("canvas1");
@@ -64,12 +65,13 @@ Set the stroke color to black and use a radius of 30px for this circle.
 Reminder - set the style first then draw.
 Use the arc method
 ********************************************/
+//I was not sure if we were supposed to draw two circles, or a circle with a stroke. I created 2 circles.
 if(Modernizr.canvas){
     //Set up the canvas and get the context
     var canvasCirc = document.getElementById("canvas2");
     var ctx2 = canvasCirc.getContext("2d");
 
-    //Outer circle to create stroke
+    //Styles-Outer circle to create a stroke around the inner circle
     ctx2.lineWidth = 2;
     ctx2.strokeStyle = "black";
     ctx2.fillStyle = "black";
@@ -81,7 +83,7 @@ if(Modernizr.canvas){
     ctx2.stroke();
 
     //Inner circle Style
-    ctx2.fillStyle = "rgba(255, 0, 0, .5)";
+    ctx2.fillStyle = "rgba(242, 34, 62, .5)";
 
     //draw Circle here
     ctx2.beginPath();
