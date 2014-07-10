@@ -38,10 +38,9 @@ if(Modernizr.canvas){
     var ctx1 = canvasRect.getContext("2d");
 
     //Styles
-    ctx1.fillStyle = "blue";
+    ctx1.fillStyle = "#b5d8e2";
     ctx1.strokeStyle = "black";
     ctx1.lineWidth = 1;
-
 
     //Draw Rectangle here
     ctx1.fillRect(0, 0, 50, 100);
@@ -52,7 +51,6 @@ if(Modernizr.canvas){
     //Add a full page image or something
     alert("Sorry, your browser does not support the canvas element.");
 }//end of the Modernizr.canvas if statement
-
 
 
 /*******************************************
@@ -114,7 +112,7 @@ if(Modernizr.canvas){
     //Styles
     ctx3.fillStyle = "yellow";
     ctx3.strokeStyle = "black";
-    ctx3.lineWidth = 10;
+    ctx3.lineWidth = 20;
 
     //Draw Star here
     ctx3.beginPath();
@@ -123,16 +121,14 @@ if(Modernizr.canvas){
     ctx3.lineTo(150, 100);//top point--right
     ctx3.lineTo(200, 100);//top-right point--top
     ctx3.lineTo(150, 150);//top-right point--bottom
-    ctx3.lineTo(200, 200);//bottom-right point--top
+    ctx3.lineTo(180, 200);//bottom-right point--top
     ctx3.lineTo(125, 175);//bottom-right point--bottom
-    ctx3.lineTo(50, 200);//bottom-left point--bottom
+    ctx3.lineTo(70, 200);//bottom-left point--bottom
     ctx3.lineTo(100, 150);//bottom-left point-top
     ctx3.lineTo(50, 100);//top-left point-bottom
     ctx3.closePath();//close path
     ctx3.stroke();
     ctx3.fill();
-
-
 
 }else{
     //Add fallback content
@@ -157,9 +153,9 @@ if(Modernizr.canvas){
     var ctx4 = canvasUmbrella.getContext("2d");
 
     //Styles
-    ctx4.fillStyle = "blue";
+    ctx4.fillStyle = "orange";
     ctx4.strokeStyle = "black";
-    ctx4.lineWidth = 5;
+    ctx4.lineWidth = 3;
 
     //Draw Umbrella top here
     ctx4.beginPath();
@@ -183,7 +179,6 @@ if(Modernizr.canvas){
     ctx4.fill();
     ctx4.stroke();
     ctx4.closePath();
-
 
 }else{
     //Add fallback content
@@ -220,7 +215,6 @@ if(Modernizr.canvas){
     ctx5.shadowOffsetX = 1;
     ctx5.shadowOffsetY = 3;
     ctx5.shadowBlur = 2;
-
 
     //Draw first sentence
     ctx5.fillText(myText, 10, ctx5.canvas.height/2);
@@ -270,19 +264,13 @@ if(Modernizr.canvas){
     //ctx6.drawImage(srcImg, 0, 1100, 1450, 544);
     ctx6.drawImage(srcImg, 0, 1100, srcImg.width/2, srcImg.height/2);
 
-    //Sliced image
+    //Sliced image, I sliced out the word "Web"
     ctx6.drawImage(srcImg, 0, 0, 1100, 500, 0, 1600, 400, 200);
-
-
-
-
 
 }else{
     //Add fallback content
     alert("Sorry, your browser does not support the canvas element.");
 }//end of the Modernizer if/else
-
-
 
 
 /*******************************************
@@ -313,7 +301,7 @@ if(Modernizr.canvas){
     ctx7.drawImage(stairsImg, 0, 0, 350, 350);
     ctx7.drawImage(crowdImg, 0, 350, 350, 370);
 
-    //create rectangle with linear gradient
+    //create a rectangle with linear gradient
     //create a linear gradient createLinearGradient(x0, y0, x1, y1)
     var linGradient = ctx7.createLinearGradient(655, 0, 655, 150);
 
@@ -322,12 +310,10 @@ if(Modernizr.canvas){
     linGradient.addColorStop(.2, "#ffffff");
 
     //Style
-    //ctx7.fillStyle = "white";
     ctx7.fillStyle = linGradient;
-    //draw
-    //ctx7.beginPath();
-    ctx7.fillRect(350, 0, 610, 150);
 
+    //Draw Rectangle
+    ctx7.fillRect(350, 0, 610, 150);
 
     //Variables for the text-sentences
     var drPaul1 = "My Day with Dr. Ron Paul";
@@ -338,6 +324,7 @@ if(Modernizr.canvas){
     ctx7.fillStyle = "black";
     ctx7.strokeStyle = "black";
     ctx7.lineWidth = 2;
+    //Text Shadow
     ctx7.shadowColor = "#717171";
     ctx7.shadowOffsetX = 1;
     ctx7.shadowOffsetY = 2;
@@ -349,7 +336,6 @@ if(Modernizr.canvas){
 
     ctx7.fillText(drPaul2, 565, 110);
     ctx7.strokeText(drPaul2, 565, 110);
-
 
 }else{
     //Add fallback content
