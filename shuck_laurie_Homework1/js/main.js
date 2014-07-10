@@ -204,6 +204,7 @@ if(Modernizr.canvas){
     var canvasText = document.getElementById("canvas5");
     var ctx5 = canvasText.getContext("2d");
 
+    //variables for text
     var myText = "War is a Racket!";
     var myText2 = "Bring the troops home now.";
 
@@ -294,7 +295,7 @@ Create a complex scene.
 You must use at least 3 different methods.
 
 ********************************************/
-
+//I used images, text, shadows, a shape(rectangle), and a gradient
 if(Modernizr.canvas){
     //Set up the canvas and get the context
     var canvasScene = document.getElementById("canvas7");
@@ -312,11 +313,19 @@ if(Modernizr.canvas){
     ctx7.drawImage(stairsImg, 0, 0, 350, 350);
     ctx7.drawImage(crowdImg, 0, 350, 350, 370);
 
-    //create rectangle
+    //create rectangle with linear gradient
+    //create a linear gradient createLinearGradient(x0, y0, x1, y1)
+    var linGradient = ctx7.createLinearGradient(655, 0, 655, 150);
+
+    //Adding color stops
+    linGradient.addColorStop(0, "#cccccc");
+    linGradient.addColorStop(.2, "#ffffff");
+
     //Style
-    ctx7.fillStyle = "white";
+    //ctx7.fillStyle = "white";
+    ctx7.fillStyle = linGradient;
     //draw
-    ctx7.beginPath();
+    //ctx7.beginPath();
     ctx7.fillRect(350, 0, 610, 150);
 
 
