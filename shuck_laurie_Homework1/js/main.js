@@ -11,7 +11,7 @@ HTML5 Shape Drawing Activity
     2.  Draw out each shape in the sections below
      
 ********************************************/
-
+window.onload = function(){
 /*******************************************
 FILE SETUP
 
@@ -216,7 +216,7 @@ if(Modernizr.canvas){
     ctx5.textBaseline = "middle";
     ctx5.strokeStyle = "black";
     ctx5.shadowColor = "#717171";
-    ctx5. shadowOffsetX = 1;
+    ctx5.shadowOffsetX = 1;
     ctx5.shadowOffsetY = 3;
     ctx5.shadowBlur = 2;
 
@@ -253,20 +253,27 @@ Draw the image logo.png into the canvas in the following 3 ways.
 Reminder to use the drawImage method for all 3 of the ways.
 
 ********************************************/
-
+//window.onload = function(){
 if(Modernizr.canvas){
     //Set up the canvas and get the context
     var canvasImg = document.getElementById("canvas6");
     var ctx6 = canvasImg.getContext("2d");
 
-    //variable to hold the image
-    var useImg = document.getElementById("picture");
+    //variable for the image
+    var srcImg = document.getElementById("img1");
 
-    //Draw image directly onto the canvas
-    ctx6.drawImage(useImg, 0, 0);
+    //Normal sized image
+    ctx6.drawImage(srcImg, 0, 0);
+
+    //Scaled image
+    //ctx6.drawImage(srcImg, 0, 1100, 1450, 544);
+    ctx6.drawImage(srcImg, 0, 1100, srcImg.width/2, srcImg.height/2);
+
+    //Sliced image
+    ctx6.drawImage(srcImg, 0, 0, 1100, 500, 0, 1600, 400, 200);
 
 
-    //Draw images here
+
 
 
 }else{
@@ -293,10 +300,46 @@ if(Modernizr.canvas){
     var canvasScene = document.getElementById("canvas7");
     var ctx7 = canvasScene.getContext("2d");
 
-    //Styles
+    //variables for the images
+    var drPaulImg = document.getElementById("img2");
+    var crowdImg = document.getElementById("img3");
+    var stairsImg = document.getElementById("img4");
+
+    //Draw images
+    //Main image
+    ctx7.drawImage(drPaulImg, 0, 0);
+    //Inset images
+    ctx7.drawImage(stairsImg, 0, 0, 350, 350);
+    ctx7.drawImage(crowdImg, 0, 350, 350, 370);
+
+    //create rectangle
+    //Style
+    ctx7.fillStyle = "white";
+    //draw
+    ctx7.beginPath();
+    ctx7.fillRect(350, 0, 610, 150);
 
 
-    // Draw scene here
+    //Variables for the text-sentences
+    var drPaul1 = "My Day with Dr. Ron Paul";
+    var drPaul2 = "April 9, 2014";
+
+    //Styles for text
+    ctx7.font = "25pt Century Gothic";
+    ctx7.fillStyle = "black";
+    ctx7.strokeStyle = "black";
+    ctx7.lineWidth = 2;
+    ctx7.shadowColor = "#717171";
+    ctx7.shadowOffsetX = 1;
+    ctx7.shadowOffsetY = 2;
+    ctx7.shadowBlur = 2;
+
+    // Draw text-sentences
+    ctx7.fillText(drPaul1, 460, 60);
+    ctx7.strokeText(drPaul1, 460, 60);
+
+    ctx7.fillText(drPaul2, 565, 110);
+    ctx7.strokeText(drPaul2, 565, 110);
 
 
 }else{
@@ -304,7 +347,7 @@ if(Modernizr.canvas){
     console.log("Sorry, your browser does not support the canvas element.");
 }//end of the Modernizer if/else
 
-
+};//end of the window onload
 
 
 
