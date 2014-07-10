@@ -279,7 +279,7 @@ if(Modernizr.canvas){
 
 }else{
     //Add fallback content
-    console.log("Sorry, your browser does not support the canvas element.");
+    alert("Sorry, your browser does not support the canvas element.");
 }//end of the Modernizer if/else
 
 
@@ -353,7 +353,7 @@ if(Modernizr.canvas){
 
 }else{
     //Add fallback content
-    console.log("Sorry, your browser does not support the canvas element.");
+    alert("Sorry, your browser does not support the canvas element.");
 }//end of the Modernizer if/else
 
 };//end of the window onload
