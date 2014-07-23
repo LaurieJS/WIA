@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+]>
+<svg version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="178px" height="128px" viewBox="0 0 178 128" enable-background="new 0 0 178 128" xml:space="preserve">
+<g>
+	<path fill="#00FFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" d="M46.267,87.77c0,0-4.316-2.933-7.36,2.639
+		s-11.5,23.25-27.625,6.375c-2.968-3.105-5.083-9.905,1.5-5.75c16.25,11.375,24-8,24-8c2.875-6.25,13.594-4.625,13.594-4.625"/>
+	<path fill="#00FFFF" stroke="#001115" stroke-miterlimit="10" d="M97.031,103.908c1.125,0.75-0.875,15.02,0.203,15.388
+		s5.574,0.47,5.574,0.47v-5.357h4.723l-2-21.25l14.25-24.125l20.5,3.875c20.75,1.5,10.75-8.5,10.75-8.5l-24.498-13.25l10.248-35.25
+		l-19.75,31c3.5-3.5,1.25-17.25,1.25-17.25c-15,10.25-7,19-7,19c-7.75,1.75-16,12.75-16,12.75c-9,11.5-22.25,8.25-22.25,8.25
+		c-33.25-0.5-28.25,35.5-28.25,35.5l2.75,17h6l-0.25-5.75h4.165l-1.165-10.25c-1.25-11,20-10.25,20-10.25
+		C97.031,95.658,97.031,103.908,97.031,103.908"/>
+	<path fill="#00FFFF" stroke="#000000" stroke-miterlimit="10" d="M119.24,42.492c0,0,2.125-1.792,4.25-6
+		c2.125-4.208,0.324-8.871,0.324-8.871c-1.383,0.905-4.789,4.829-4.783,6.246c0.008,1.417,0.043,8.625,0.043,8.625"/>
+	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M105.531,93.158c-4.301,0.053-2.723,21.25-2.723,21.25"/>
+	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M61.66,98.259c-12.628,1.149-8.378,18.149-8.378,18.149"/>
+	<rect x="47.158" y="117.533" width="6.436" height="4.625"/>
+	<rect x="53.219" y="113.221" width="3.907" height="2.875"/>
+	<rect x="96.969" y="114.946" width="5.557" height="4.274"/>
+	<rect x="103.094" y="110.533" width="4" height="3.5"/>
+	<ellipse cx="127.407" cy="57.783" rx="0.874" ry="2.375"/>
+	<ellipse transform="matrix(0.9963 -0.0859 0.0859 0.9963 -4.4217 11.6507)" cx="133.157" cy="57.2" rx="0.875" ry="2.375"/>
+	<ellipse cx="147.947" cy="68.055" rx="0.75" ry="0.979"/>
+	<ellipse cx="150.363" cy="65.576" rx="0.75" ry="0.979"/>
+	<path fill="none" stroke="#FF3333" stroke-miterlimit="10" stroke-opacity="0.7" d="M143.113,73.048c0,0-4.5-2.058-4.416-4.015"/>
+	<path fill="none" stroke="#FF3333" stroke-miterlimit="10" stroke-opacity="0.7" d="M136.279,68.055
+		c2.418,2.354,4.625,0.354,4.625,0.354"/>
+	<g id="third_stripes">
+		<path fill="none" stroke="#001115" stroke-width="0.75" stroke-miterlimit="10" d="M134.564,22.912
+			c-0.207,0.75-2.498,1.792-3.416,1.417"/>
+		<path fill="none" stroke="#001115" stroke-width="0.75" stroke-miterlimit="10" d="M133.773,26.205
+			c-2.25,1.25-4.291,1.042-4.291,1.042"/>
+		<path fill="none" stroke="#001115" stroke-width="0.75" stroke-miterlimit="10" d="M132.857,28.951
+			c-2.293,1.253-5.043,1.003-5.043,1.003"/>
+		<path fill="none" stroke="#001115" stroke-width="0.75" stroke-miterlimit="10" d="M131.982,31.829
+			c-4.709,1.585-5.668,0.5-5.668,0.5"/>
+		<path fill="none" stroke="#001115" stroke-width="0.75" stroke-miterlimit="10" d="M131.064,35.33
+			c-6.125,0.916-6.375-0.5-6.375-0.5"/>
+		<path fill="none" stroke="#001115" stroke-width="0.75" stroke-miterlimit="10" d="M130.148,38.164
+			c-6.084,1.292-7.209-0.541-7.209-0.541"/>
+		<path fill="none" stroke="#001115" stroke-width="0.75" stroke-miterlimit="10" d="M129.148,41.706
+			c-7.584,0.835-8.416-0.957-8.416-0.957"/>
+		<path fill="none" stroke="#001115" stroke-width="0.75" stroke-miterlimit="10" d="M128.314,44.792
+			c-9.082,0.833-9.791-0.667-9.791-0.667"/>
+		<path fill="none" stroke="#001115" stroke-width="0.75" stroke-miterlimit="10" d="M126.545,50.663
+			c-6.064-2.502-8.551-5.619-8.551-5.619"/>
+	</g>
+	<g>
+		<g opacity="0.4">
+			
+				<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="64.8433" y1="68.8838" x2="143.0957" y2="68.8838" gradientTransform="matrix(0.6286 0.7777 -0.7777 0.6286 120.8338 -77.7902)">
+				<stop  offset="0" style="stop-color:#9CCDE9"/>
+				<stop  offset="0.3933" style="stop-color:#FFFFFF"/>
+				<stop  offset="0.4782" style="stop-color:#F9FAFC"/>
+				<stop  offset="0.5933" style="stop-color:#E8EDF3"/>
+				<stop  offset="0.7258" style="stop-color:#CBD8E4"/>
+				<stop  offset="0.8699" style="stop-color:#A4BAD0"/>
+				<stop  offset="1" style="stop-color:#7A9ABB"/>
+				<a:midPointStop  offset="0" style="stop-color:#9CCDE9"/>
+				<a:midPointStop  offset="0.5" style="stop-color:#9CCDE9"/>
+				<a:midPointStop  offset="0.3933" style="stop-color:#FFFFFF"/>
+				<a:midPointStop  offset="0.6422" style="stop-color:#FFFFFF"/>
+				<a:midPointStop  offset="1" style="stop-color:#7A9ABB"/>
+			</linearGradient>
+			<path fill="url(#SVGID_1_)" d="M162.301,22.375c-13.584-16.805-38.217-19.417-55.023-5.833
+				C93.758,27.469,89.434,45.548,95.33,60.951c4.977-1.25,10.909,0.835,14.855,5.716c3.646,4.51,4.597,10.177,2.935,14.645
+				c13.491,7.36,30.651,6.348,43.347-3.914C173.273,63.814,175.885,39.18,162.301,22.375z"/>
+		</g>
+		<g>
+			<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M162.301,22.375c-13.584-16.805-38.217-19.417-55.023-5.833
+				C93.758,27.469,89.434,45.548,95.33,60.951c4.977-1.25,10.909,0.835,14.855,5.716c3.646,4.51,4.597,10.177,2.935,14.645
+				c13.491,7.36,30.651,6.348,43.347-3.914C173.273,63.814,175.885,39.18,162.301,22.375z"/>
+		</g>
+	</g>
+</g>
+</svg>

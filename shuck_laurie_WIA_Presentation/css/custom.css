@@ -1,0 +1,178 @@
+/*
+Laurie Shuck
+Spritely Presentation
+Web Interaction and Animation
+July 24, 2014
+*/
+
+/***************Main Settings**************/
+h1 {
+    font-size: 1.3em !important;
+}
+
+h2 {
+    font-size: 1.2em !important;
+}
+
+h3 {
+    font-size: 1.1em !important;
+}
+
+p, li {
+    font-size: 0.8em !important;
+}
+
+code.xml {
+    font-size: 1.1em !important;
+}
+
+#slide2 h1, #slide3 h1, #steps h1, #step1 h1, #step2 h1, #step3 h1, #images h1, #step5 h1, #bgStars h1, #bgPlanets h1{
+    margin-bottom: 40px;
+}
+
+#step6 h1, #bgSprites h1{
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+
+/*************Header************************/
+header {
+    width: 100%;
+    height: 50px;
+    background-color: #3f3f3f;
+}
+
+header p span a {
+    color: #74a7cb !important;
+}
+
+header p span a:hover {
+    color: #ffffff !important;
+}
+
+header p {
+    font-size: 20px !important;
+    padding-top: 10px !important;
+}
+
+header span {
+    margin-left: 21.8% !important;
+}
+
+/************* "It's Demo Time" slide*************/
+#mouseOver img {
+    margin-right: 75%;
+    margin-bottom: 145px;
+}
+
+/*********Demo of Spritely slide***********************/
+#unicorn {
+    background: url(../images/unicornSprites.png) 0 0 no-repeat;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    width: 180px;
+    height: 180px;
+    z-index: 2000;
+    cursor: pointer;
+}
+
+.stage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1490px;
+    height: 500px;
+    overflow: hidden;
+}
+
+#stage {
+   margin-top: -140px;
+    margin-left: -266px;
+    z-index: 100;
+}
+
+#background {
+    background: url(../images/background_stars.png) 0 0 repeat-x;
+}
+
+#planets {
+    position: absolute;
+    width: 100%;
+    height: 221px;
+    background: url(../images/planets.png) repeat-x;
+    top: 80px;
+}
+
+#animated h1 {
+    position: relative;
+    bottom: 240px !important;
+}
+
+/*********Steps Slide*********/
+#step1 ul li:nth-child(even){
+    list-style-type: none;
+}
+
+/*********HTML Code Slide*********/
+#step3 ul {
+    margin-top: 10px;
+}
+
+/*********Images Slides*********/
+#images p {
+    margin-bottom: 20px;
+}
+
+.clickDown {
+    position: relative;
+    top: 240px;
+}
+
+/***************CSS Slide*******************/
+
+#step5 small {
+    position: relative;
+    top: 90px;
+}
+
+/*********Removing the box shadow, border, and backgroundColor from images*********/
+#theEnd img, #spritelyOpen img, #mouseOver img {
+    border: none;
+    box-shadow: none;
+    background: none;
+}
+
+/*****************Jquery Slide********************/
+#spriteInfo{
+    list-style-type: none;
+    font-weight: bold;
+}
+
+#panInfo {
+    list-style-type: none;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* To fix the Header on smaller screens ----------- */
+@media only screen
+and (max-width : 800px) {
+    header span {
+        margin-left: 14.8% !important;
+    }
+}
+
+@media only screen
+and (max-width : 380px) {
+    header span {
+        margin-left: 0 !important;
+    }
+}
+
+
+
+
+
+
+
