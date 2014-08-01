@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tutorials | Code Abode | Web Design & Tutorial Website</title>
+    <!--Files needed for Spritely-->
+    <script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+    <script src="js/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="js/jquery.spritely.js" type="text/javascript"></script>
+    <!--Eric Meyer CSS reset-->
+    <link href="css/reset.css" rel="stylesheet"/>
+    <!--Custom CSS file-->
+    <link href="css/styles.css" rel="stylesheet"/>
+    <!--Modernizr JS file-->
+    <script src="includes/modernizr.js" type="text/javascript"></script>
+
+    <!--For IE-->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body id="tutorials">
+<div id="container">
+
+<header>
+    <h1>Code Abode |  Web Design & Tutorial Website</h1>
+
+    <!--Using Spritely for the animated sprite logo-->
+    <div id="stage" class="stage">
+        <a href="index.html"><div id="logo_sprites" class="stage"></div></a>
+    </div><!--end of the stage div-->
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#"  class="active">Tutorials</a></li>
+            <li><a href="designs.html">Designs</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="main_tutorial">
+    <section>
+        <h2>Welcome to Tutorials</h2>
+        <p>In this section, you can watch video tutorials that I have created during my journey as an online Web Design and Development student.</p>
+        <p>If you would like to learn about Aptana Studio 3, Knockout.js, Spritely.js, or how to use scalable vector graphics you have come to the right place.</p>
+    </section>
+    <section>
+        <ul>
+            <li><a href="#aptana" id="padAptana">Tour of Aptana Studio 3</a></li>
+            <li><a href="#knockout" id="padKnockout">Knockout.js Tutorial</a></li>
+            <li><a href="#spritely" id="padSpritely">Spritely.js Tutorial</a></li>
+            <li><a href="#svg" id="padSVG">SVG Tutorial</a></li>
+        </ul>
+    </section>
+</section><!--end of the main_tutorial section-->
+
+<!--Tutorial Video Sections-->
+<section id="videos">
+    <section id="aptana">
+        <video controls preload poster="images/aptana_poster.png">
+            <source src="video/tutorial_aptana.mp4" type="video/mp4"/>
+            <source src="video/tutorial_aptana.webmsd.webm" type="video/webm"/>
+            <source src="video/tutorial_aptana.oggtheora.ogv" type="video/ogg"/>
+            Sorry, your browser does not support the HTML5 video element.
+        </video>
+        <h3>Aptana Studio 3</h3>
+        <p>This video will give you a quick tour around the Aptana Studio 3 IDE.</p>
+
+        <!--Side nav to turn on/off the lights to watch videos-->
+        <ul id="stickyLights">
+            <li id="notActive"><a href="#" class="lightsOff" >Lights Off</a></li>
+            <li id="activeLight"><a href="#" class="lightsOn">Lights On</a></li>
+        </ul>
+    </section>
+
+    <section id="knockout">
+        <video controls preload poster="images/knockout_poster.png">
+            <source src="video/tutorial_knockout.mp4" type="video/mp4"/>
+            <source src="video/tutorial_knockout.webmsd.webm" type="video/webm"/>
+            <source src="video/tutorial_knockout.oggtheora.ogv" type="video/ogg"/>
+            Sorry, your browser does not support the HTML5 video element.
+        </video>
+        <h3>Knockout.js Tutorial</h3>
+        <p>This video will teach you how to bind data to text, bind data to input fields, and calculate data using Knockout.js.</p>
+    </section>
+
+    <section id="spritely">
+        <video controls preload poster="images/spritely_poster.png">
+            <source src="video/tutorial_spritely.mp4" type="video/mp4"/>
+            <source src="video/tutorial_spritely.webmsd.webm" type="video/webm"/>
+            <source src="video/tutorial_spritely.oggtheora.ogv" type="video/ogg"/>
+            Sorry, your browser does not support the HTML5 video element.
+        </video>
+        <h3>Spritely.js Tutorial</h3>
+        <p>This video will teach you how to create an animated scene using Spritely.js.</p>
+    </section>
+
+    <section id="svg">
+        <video controls preload poster="images/svg_poster.png">
+            <source src="video/tutorial_SVG.mp4" type="video/mp4"/>
+            <source src="video/tutorial_SVG.webmsd.webm" type="video/webm"/>
+            <source src="video/tutorial_SVG.oggtheora.ogv" type="video/ogg"/>
+            Sorry, your browser does not support the HTML5 video element.
+        </video>
+        <h3>SVG Tutorial</h3>
+        <p>This video will teach you how to add an SVG logo to your HTML two different ways.</p>
+    </section>
+
+</section>
+
+    <footer>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#" class="active">Tutorials</a></li>
+            <li><a href="designs.html">Designs</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+        <p><small>&copy; Code Abode 2014. All Rights Reserved.</small></p>
+    </footer>
+
+</div><!--end of the container div-->
+
+<!--Custom JS file-->
+<script src="js/main.js" type="text/javascript"></script>
+</body>
+</html>

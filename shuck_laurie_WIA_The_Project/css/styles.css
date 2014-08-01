@@ -1,0 +1,596 @@
+/*
+Laurie Shuck
+Project Assignment
+Web Interaction And Animation
+July 31, 2014
+*/
+
+body {
+    max-width: 1100px;
+    margin: 0 auto;
+    font-family: "century gothic", sans-serif;
+    font-size: 1em;
+    color: #060606;
+}
+
+h2 {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 1.1em;
+}
+
+#container {
+    width: 100%;
+}
+
+.active {
+    color: #ffffff;
+}
+
+/***************Header*****************/
+header {
+    background-color: #bfdede;
+    width: 100%;
+    height: 134px;
+}
+
+h1 {
+    margin-left: -8888px;
+}
+
+nav ul {
+    margin-left: 20%;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 15%;
+    padding-top: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #5c5c5c;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/*Logo***********/
+.stage {
+    position: absolute;
+    top: 10px;
+    width: 130px;
+    height: 130px;
+}
+
+#stage {
+    z-index: 100;
+}
+
+#logo_sprites {
+    background: url(../images/abode_sprites22.png) 0 0 no-repeat;
+    top: 0;
+    left: 25px;
+    width: 100%;
+    height: 130px;
+    z-index: 2000;
+}
+
+/******************Main Content********************/
+#main_home {
+    width: 100%;
+    height: auto;
+    background-color: #717171;
+    margin-left: 0;
+    overflow: hidden;
+}
+
+#welcome {
+    float: left;
+    width: 33.3%;
+    height: auto;
+    color: white;
+}
+
+#welcome h2{
+    padding-top: 6%;
+    padding-left: 6%;
+}
+
+#welcome p{
+    padding-top: 6%;
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
+#main_home img {
+    float: right;
+    max-width: 66.7%;
+    height: auto;
+    overflow: hidden;
+}
+
+/**********Lower Content************/
+#lower_content_home {
+    background-color: #ffffff;
+    width: 100%;
+    height: 350px;
+}
+
+#tutorials_home, #designs_home, #about_home {
+    float: left;
+    width: 33.33333333%;
+}
+
+#lower_content_home h2 {
+    text-align: center;
+}
+
+#lower_content_home p {
+    padding: 6%;
+    height: auto;
+}
+/*buttons*/
+#lower_content_home input {
+    width: 60%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #5c5c5c;
+    background-color: orange;
+    margin-left: 18%;
+    border: none;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+#lower_content_home input:hover {
+    background-color: #5c5c5c;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/*tutorials********/
+#tutorials_home img {
+    max-width: 55%;
+    margin-left: 41%;
+}
+
+/*designs********/
+#designs_home img {
+    max-width: 55%;
+    margin-left: 22.5%;
+}
+
+/*about********/
+#about_home img {
+    max-width: 55%;
+    margin-left: 4%;
+}
+
+/************footer************/
+footer {
+    width: 100%;
+    background-color: #bfdede;
+}
+
+footer ul {
+    margin-left: 20%;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 15%;
+    padding-top: 15px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #5c5c5c;
+    font-weight: bold;
+}
+
+footer ul li a:hover {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+footer p small {
+    margin-left: 1%;
+    font-size: 0.7em;
+    color: #5c5c5c;
+}
+
+#home footer {
+    margin-top: 15px;
+}
+
+/***************************Tutorials Page****************************************/
+#main_tutorial {
+    width: 100%;
+    height: 377px;
+    background-color: #717171;
+}
+
+#main_tutorial > section:first-child {
+    width: 33.3333333%;
+    height: auto;
+    background-color: #717171;
+    float: left;
+
+}
+
+#main_tutorial > section:last-child {
+    width: 66.666666%;
+    background-color: #717171;
+    float: right;
+}
+
+#main_tutorial li {
+    text-align: center;
+    margin-top: 62px;
+    margin-bottom: 62px;
+    display: block;
+}
+
+#padAptana {
+    padding: 10px 10%;
+}
+
+#padKnockout {
+    padding: 10px 12.555%;
+}
+
+#padSpritely {
+    padding: 10px 13.75%;
+}
+
+#padSVG {
+    padding: 10px 16.5%;
+}
+
+#main_tutorial a {
+    width: 100%;
+    color: #5c5c5c;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: orange;
+}
+
+#main_tutorial a:hover {
+    color: #ffffff;
+    background-color: #5c5c5c;
+}
+
+#main_tutorial h2 {
+    color: #ffffff;
+    padding-top: 6%;
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
+#main_tutorial p {
+    color: #ffffff;
+    padding-top: 6%;
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
+video {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#videos h3 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#videos p {
+    margin-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#knockout, #spritely, #svg {
+    margin-top: 70px;
+}
+
+#svg p {
+    margin-bottom: 70px;
+}
+
+/*Sticky links to turn the lights on and off*/
+#stickyLights {
+    position: fixed;
+    right: 0;
+    top: 80%;
+    width: 7em;
+    height: auto;
+    background-color: #bfdede;
+    z-index: 1000;
+}
+
+#stickyLights li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#stickyLights li:first-child {
+    border-bottom: dotted 1px #717171;
+}
+
+#stickyLights a {
+    text-decoration: none;
+    color: #717171;
+    font-weight: bold;
+}
+
+#activeLight a {
+    color: #ffffff;
+
+}
+
+/******************************Designs Page********************/
+#main_designs {
+    width: 100%;
+    height: auto;
+    background-color: #717171;
+    overflow: hidden;
+}
+
+#designsInfo {
+    width: 33.33333333%;
+    float: left;
+}
+
+#canvasDesigns {
+    width: 66.66666666%;
+    float: left;
+    margin-bottom: -2px;
+}
+
+#Canvas2 {
+    margin-left: 5%;
+    max-width: 100%;
+}
+
+#main_designs p {
+    color: #ffffff;
+    padding-top: 6%;
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
+#main_designs h2 {
+    color: #ffffff;
+    padding-top: 6%;
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
+#gallery h3 {
+    color: #000000;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+}
+
+#gallery p {
+    color: #000000;
+    padding-bottom: 6%;
+    text-align: center;
+}
+
+#gallery {
+    background-color: #ffffff;
+}
+
+#gallery img {
+    margin-bottom: 10px;
+    margin-left: 1.538%;
+    border: .1em solid #cccccc;
+}
+
+/*For ShadowBox, to change the color of the Titles*/
+div#sb-title-inner {
+    color: #ffffff;
+    font-weight: bold;
+}
+/*Change the color & opacity of the overlay*/
+div#sb-overlay {
+   background-color: #000000;
+    opacity: 1!important;
+}
+
+#sb-player {
+    width: 100%;
+}
+
+/****************************About Page************************/
+#main_about {
+    width: 100%;
+    height: auto;
+    background-color: #717171;
+    overflow: hidden;
+}
+
+#aboutMe p:nth-of-type(2){
+    margin-top: 15px;
+}
+
+#info {
+    float: left;
+    width: 33.3333333%;
+}
+
+#info p {
+    color: #ffffff;
+    padding-top: 6%;
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
+#info h2 {
+    color: #ffffff;
+    padding-top: 6%;
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
+#Canvas1 {
+    margin-top: -1px;
+    margin-left: 1px;
+    width: 66.666666666%;
+    float: left;
+}
+
+#me {
+    width: 31%;
+    margin-left: 1.77%;
+    float: left;
+}
+
+#family {
+    width: 31%;
+    margin-left: 1.77%;
+    float: left;
+}
+
+#mapArea {
+    width: 31%;
+    margin-left: 1.77%;
+    height: auto;
+    float: left;
+}
+
+/*the map*/
+div#mapContainer {
+    width: 100%;
+    height: 266px;
+}
+
+#aboutMe {
+    width: 100%;
+    height: 650px;
+}
+
+#aboutMe h2 {
+    padding-top: 5%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+}
+
+#aboutMe h3 {
+    padding-top: 6%;
+    padding-bottom: 6%;
+    text-align: center;
+}
+
+#aboutMe p {
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
+#hiddenEmail {
+    width: 33.33333%;
+    background-color: #bfdede;
+    z-index: 2000;
+}
+
+#hiddenEmail h4 {
+    padding-top: 15px;
+    padding-left: 6%;
+    margin-bottom: 5px;
+}
+
+#hiddenEmail p {
+    padding: 6%;
+    border-top: .1em dotted #717171;
+}
+
+#emailLaurie {
+    position: relative;
+    top: 60px;
+    left: 6%;
+    width: 15%;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
+    background-color: orange;
+    color: #5c5c5c;
+    font-weight: bold;
+}
+
+#emailLaurie:hover {
+    background-color: #5c5c5c;
+    color: #ffffff;
+}
+
+#about footer {
+    margin-top: 20px;
+}
+
+/***********Media Queries**************/
+
+@media only screen and (max-width: 961px) {
+    header nav ul li {
+        margin-left: 12%;
+    }
+
+    footer ul li {
+        margin-left: 9%;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    nav {
+        margin-left: 20%;
+    }
+    header nav ul li {
+        margin-left: 5%;
+    }
+    footer ul {
+        margin-left: 10%;
+    }
+    footer ul li {
+        margin-left: 5%;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 480px) {
+    nav {
+        margin-left: 10%;
+    }
+    header nav ul li {
+          margin-left: 2%;
+    }
+    footer ul {
+        margin-left: 5%;
+    }
+    footer ul li {
+        margin-left: 2%;
+    }
+
+}
